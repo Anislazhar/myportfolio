@@ -2,12 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import car from "../../Assets/Projects/car.png";
 
 function Projects() {
   return (
@@ -18,73 +13,125 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              imgPath={car}
+              title="Car Showcase App. React.js, Bootstrap, JavaScript, Django REST Framework, Cloudinary & Heroku "
+              ghLink="https://github.com/Anislazhar/my-cars"
+              demoLink="https://my-car-a464784ae806.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              imgPath={
+                "https://github.com/Anislazhar/atable/blob/main/docs/website/homepage-snippet.JPG?raw=true"
+              }
+              title="A Table Restaurant App. React, Python, Bootstrap, Django, Cloudinary & Heroku "
+              ghLink="https://github.com/Anislazhar/atable"
+              demoLink="https://atable-614d6c154c15.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              imgPath={
+                "https://github.com/Anislazhar/pp3_password_c/blob/main/assets/readme-images/pwd-generator-app.png?raw=true"
+              }
+              title="Passwords Generator & Manager. Python"
+              ghLink="https://github.com/Anislazhar/pp3_password_c"
+              demoLink="https://pp3-pass-gen-1d2fcbc8ecb2.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              imgPath={
+                "https://github.com/Anislazhar/AnisLazhar/blob/main/img/NetflixReact.png?raw=truep"
+              }
+              title="Netflix Clone App. React, Material-UI & Firebase"
+              ghLink="https://github.com/Anislazhar/netflixx-"
+              demoLink="https://netflixanis-299b0.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              imgPath={
+                "https://github.com/Anislazhar/AnisLazhar/blob/main/img/Amazonnnne.png?raw=true"
+              }
+              title="Amazon Clone App. React Context Api, Firebase & Material-UI"
+              ghLink="https://github.com/Anislazhar/Amazon-Clone"
+              demoLink="https://clone-a36c0.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              imgPath={
+                "https://github.com/Anislazhar/AnisLazhar/blob/main/img/Bildschirmfoto%202020-11-30%20um%2020.20.58.png?raw=true"
+              }
+              title="Covid-19 Tracker App. React, Material-UI & Firebase"
+              ghLink="https://github.com/Anislazhar/covid19_tracker"
+              demoLink="https://covidtracker-ae9b7.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={
+                "https://github.com/Anislazhar/AnisLazhar/blob/main/img/Bildschirmfoto%202020-11-30%20um%2019.43.51.png?raw=true"
+              }
+              title="Github profile searcher App. React / Material-UI"
+              ghLink="https://github.com/Anislazhar/GitHub_Profile_Search/"
+              demoLink="https://github-profile-search-d7fa6.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={
+                "https://github.com/Anislazhar/AnisLazhar/blob/main/img/ECommerce-React-App.png?raw=true"
+              }
+              title="E-Commerce App. React Hooks / Redux [Thunk / Saga] / Firebase"
+              ghLink="https://github.com/Anislazhar/e-commerce"
+              demoLink="https://ecommerce-website-5f55b.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={
+                "https://github.com/Anislazhar/AnisLazhar/blob/main/img/Bildschirmfoto%202020-11-30%20um%2022.39.02.png?raw=true"
+              }
+              title="BVG Ticket Tourist Guide App. React & Material-UI "
+              ghLink="https://github.com/Anislazhar/BVG-App"
+              demoLink="https://anislazhar.github.io/BVG-App/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={
+                "https://github.com/Anislazhar/AnisLazhar/blob/main/img/TinderApp.png?raw=true"
+              }
+              title="Tinder clone. React, Material-UI & Firebase"
+              ghLink="https://github.com/Anislazhar/Tinder-Clone"
+              demoLink="https://tinder-clone-c4691.web.app/chat"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={
+                "https://github.com/Anislazhar/AnisLazhar/blob/main/img/5.jpg?raw=true"
+              }
+              title="Budget Calculator App. HTML, CSS & JavaScript"
+              ghLink="https://github.com/Anislazhar/budjetApp"
+              demoLink="https://anislazhar.github.io/budjetApp/"
             />
           </Col>
         </Row>
@@ -92,5 +139,4 @@ function Projects() {
     </Container>
   );
 }
-
 export default Projects;
