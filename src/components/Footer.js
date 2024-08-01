@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
+import { RiMailSendFill } from "react-icons/ri";
 
 function Footer() {
   let date = new Date();
@@ -35,6 +36,24 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                style={{ color: "white" }}
+                href="mailto:anis.lazhar@web.de"
+                rel="noreferrer"
+              >
+                <RiMailSendFill />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                style={{ color: "white" }}
+                href="tel:+4917621826014"
+                rel="noreferrer"
+              >
+                <FaPhoneAlt />
               </a>
             </li>
           </ul>

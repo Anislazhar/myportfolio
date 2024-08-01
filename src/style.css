@@ -322,7 +322,7 @@ button:focus {
 .myAvtar {
   flex: auto !important;
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 6em !important;
 }
 
 @media (max-width: 767px) {
@@ -333,9 +333,8 @@ button:focus {
 }
 
 .home-about-section {
-  position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-bottom: 50px !important;
+  padding-top: 10px !important;
 }
 
 .home-about-description {
@@ -377,6 +376,7 @@ button:focus {
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
+
 
 .home-social-icons::before {
   content: "";

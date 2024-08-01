@@ -19,7 +19,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={car}
-              title="Car Showcase App. React.js, Bootstrap, JavaScript, Django REST Framework, Cloudinary & Heroku "
+              title="Car Showcase App. React, Bootstrap, Django, Cloudinary & Heroku "
               ghLink="https://github.com/Anislazhar/my-cars"
               demoLink="https://my-car-a464784ae806.herokuapp.com/"
             />
@@ -30,7 +30,7 @@ function Projects() {
               imgPath={
                 "https://github.com/Anislazhar/atable/blob/main/docs/website/homepage-snippet.JPG?raw=true"
               }
-              title="A Table Restaurant App. React, Python, Bootstrap, Django, Cloudinary & Heroku "
+              title="A Table Restaurant. React, Bootstrap, Django, Cloudinary & Heroku "
               ghLink="https://github.com/Anislazhar/atable"
               demoLink="https://atable-614d6c154c15.herokuapp.com/"
             />

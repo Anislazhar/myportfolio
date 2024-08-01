@@ -37,8 +37,10 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+        <Navbar.Brand className="d-flex">
+          <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+            <img src={logo} className="img-fluid logo" alt="brand" />
+          </Nav.Link>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -93,7 +95,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/Anislazhar"
+                href="https://github.com/Anislazhar/myportfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >

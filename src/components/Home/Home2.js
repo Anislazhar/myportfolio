@@ -4,6 +4,8 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { RiMailSendFill } from "react-icons/ri";
 
 function Home2() {
   return (
@@ -41,6 +43,24 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:anis.lazhar@web.de"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <RiMailSendFill />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="tel:+4917621826014"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaPhoneAlt />
                 </a>
               </li>
             </ul>
