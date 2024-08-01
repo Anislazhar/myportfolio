@@ -1,6 +1,6 @@
 <h2 align="center">
   Anis Lazhar Portfolio <br/>
-  <a href="https://anislazhar.github.io/myportfolio/#/" target="_blank">soumyajit.tech</a>
+  <a href="https://anislazhar.github.io/myportfolio/#/" target="_blank">Anis.Lazhar</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./src/Assets/Screenshot 2024-08-01 at 20.18.01.png" />
@@ -16,8 +16,9 @@ This project was built using these technologies.
 
 - React.js
 - Node.js
-- Express.js
 - CSS3
+- Github
+- Github pages
 - VsCode
 
 ## Features
