@@ -18,37 +18,6 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={car}
-              title="Car Showcase App. React, Bootstrap, Django, Cloudinary & Heroku "
-              ghLink="https://github.com/Anislazhar/my-cars"
-              demoLink="https://my-car-a464784ae806.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={
-                "https://github.com/Anislazhar/atable/blob/main/docs/website/homepage-snippet.JPG?raw=true"
-              }
-              title="A Table Restaurant. React, Bootstrap, Django, Cloudinary & Heroku "
-              ghLink="https://github.com/Anislazhar/atable"
-              demoLink="https://atable-614d6c154c15.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={
-                "https://github.com/Anislazhar/pp3_password_c/blob/main/assets/readme-images/pwd-generator-app.png?raw=true"
-              }
-              title="Passwords Generator & Manager. Python"
-              ghLink="https://github.com/Anislazhar/pp3_password_c"
-              demoLink="https://pp3-pass-gen-1d2fcbc8ecb2.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={
                 "https://github.com/Anislazhar/AnisLazhar/blob/main/img/NetflixReact.png?raw=truep"
               }
